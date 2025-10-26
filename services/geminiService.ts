@@ -35,13 +35,13 @@ export async function analyzeStock(ticker: string): Promise<StockAnalysisResult>
     مثال على التنسيق:
     \`\`\`json
     {
-      "companyName": "Apple Inc.",
+      "companyName": "Company Name Inc.",
       "recommendation": "فرصة دخول محتملة",
-      "entryPoint": "حول 192.50 دولار",
+      "entryPoint": "حول 150.00 دولار",
       "reasoning": [
         "أظهر مؤشر MACD تقاطعًا إيجابيًا على إطار 4 ساعات.",
         "مؤشر القوة النسبية (RSI) عند 45 و يتجه للأعلى، مما يدعم الزخم الصاعد.",
-        "الأخبار الأخيرة عن إطلاق منتج جديد إيجابية."
+        "الأخبار الأخيرة عن الشركة إيجابية."
       ]
     }
     \`\`\`
